@@ -1,4 +1,4 @@
-package lab9;
+package lab9_02;
 
 public class FabricaBoloChocolate extends FabricaBolo{
 	

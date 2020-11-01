@@ -1,4 +1,4 @@
-package lab9;
+package lab9_02;
 
 public class Cliente {
 	public static void main(String[] args) {

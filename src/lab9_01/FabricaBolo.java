@@ -1,4 +1,4 @@
-package lab9;
+package lab9_01;
 
 /**
  * Havia muita duplicação no codigo original, as classes
@@ -13,19 +13,18 @@ package lab9;
  **/
 public abstract class FabricaBolo {
 
-	Cobertura cobertura;
 
 	public void prepararBolo() {
 		fazerMassa();
 		levarAoForno();
-		cobertura.fazerCobertura();
+		fazerCobertura();
 		decorarBolo();
 	}
 
 	public void levarAoForno() {
 		System.out.println("Leva ao forno");
 	}
-
+	public abstract void fazerCobertura();
 	public abstract void fazerMassa();
 
 	public void decorarBolo() {
